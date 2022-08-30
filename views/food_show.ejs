@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drinks</title>
+</head>
+<body>
+    <h1>At foo bar</h1>
+    <h2> <%=food.name;%> </h2>
+    <h3><%="$" + food.price;%> </h3>
+    <img src=<%=food.image + ".jpg";%> alt="<%=food.name;%>">
+    <br>
+    <a href="/drinks">Back</a>
+<style type="text/css">
+    body {
+      color: blanchedalmond;
+      background-color: steelblue;
+    }
+    
+    h2{
+        text-transform: capitalize;
+    }
+  </style>
+  
+</body>
+</html>
